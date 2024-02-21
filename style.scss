@@ -1,0 +1,517 @@
+$main-color: #0B5EBE;
+body{
+    overflow-x: hidden;
+}
+#slide1{
+    height: 615px;
+    #small_logo{
+        display: block;
+        margin: auto;
+        width: 100px;
+    }
+    hr{
+        border-left: 4px black solid;
+        width: 0px;
+        height: 365px;
+        float: left;
+        position: relative;
+        left: 25px;
+    }
+    #judul1 {
+        font-size: 50px;
+        text-align: center;
+        position: relative;
+        top: 80px;
+        font-weight: bold;
+    }
+    #desc1 {
+        position: relative;
+        text-align: center;
+        top: 65px;
+        font-size: 21px;
+    }
+    #heading_img{
+        position: relative;
+        width: 425px;
+        display: block;
+        margin: auto;
+    }
+    #big_bulat{
+        width: 600px;
+        height: 600px;
+        position: relative;
+        top: -22%;
+        z-index: -999;
+        margin: auto;
+        display: block;
+    }
+    #circle2{
+        width: 100px;
+        top: 230px;
+        position: relative;
+    }
+    #list-sosmed{
+        position: relative;
+        top: 385px;
+        left: -22px;
+        li{
+            list-style: none;
+            margin-bottom: 10px;
+        }
+        .sosmed{
+            transition-duration: 0.5s;
+        }
+        .sosmed:hover{
+            width: 25px;
+            height: 25px;
+            transition-duration: 0.5s;
+        }
+    }
+}
+
+#slide2{
+    margin-top: 10px;
+    height: 625px;
+    background-color: $main-color;
+    #judul2 {
+        color: #FFF;
+        font-size: 50px;
+        position: relative;
+        top: 50px;
+        font-weight: bold;
+    }
+    .d-flex{
+        position: relative;
+        top: 75px;
+        left: 30px;
+        p{
+            font-size: 21px;
+            font-weight: bold;
+            color: white;
+        }
+        hr{
+            border: 1px solid white;
+            width: 30%;
+        }
+    }
+    .watermark {
+        position: absolute;
+        font-weight: bold;
+        color: #FFF;
+        z-index: 0;
+        opacity: 0.1;
+        font-size: 265px;
+        top: 0;
+    }
+    #desc2 {
+        color: #FFF;
+        position: relative;
+        top: 36px;
+        font-size: 21px;
+    }
+    #petak {
+        width: 170px;
+        top: -45px;
+        position: relative;
+        left: 55px;
+    }
+    .card-deck{
+        margin: auto;
+    }
+    #divisi{
+        top: 55px;
+        width: 185px;
+        margin: 0px 20px 0px 20px;
+        box-shadow: 2px 2px 10px 5px rgba(12,5,100,0.20);
+        height: 340px;
+        border-radius: 25px;
+    }
+    li{
+        margin-bottom: 5px;
+    }
+    .card-img-top {
+        width: 145px;
+        margin: auto;
+        display: block;
+        margin-top: 20px;
+    }
+    .card-title{
+        text-align: center;
+    }
+    .card-header{
+        height: 60px;
+    }
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+#slide3{
+    #judul3 {
+        font-size: 50px;
+        position: relative;
+        top: 50px;
+        font-weight: bold;
+    }
+    .d-flex{
+        position: relative;
+        top: 75px;
+        left: 45px;
+        p{
+            font-size: 21px;
+            font-weight: bold;
+        }
+        hr{
+            border: 1px solid black;
+            width: 30%;
+        }
+    }
+    #desc3 {
+        position: relative;
+        top: 36px;
+        font-size: 21px;
+    }
+    .watermark {
+        position: absolute;
+        font-weight: bold;
+        color: $main-color;
+        z-index: 0;
+        opacity: 0.1;
+        font-size: 265px;
+        top: -20%;
+    }
+    width: 100%;
+    .swiper-slide {
+        width: 400px;
+        height: 400px;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+
+        .card-title{
+            top: 190px;
+            position: relative;
+        }
+        .card{
+            border-radius: 25px;
+        }
+        .card-img{
+            border-radius: 25px;
+        }
+        .card-img-overlay{
+            box-shadow: inset 0px -105px 60px -35px $main-color;
+            border-radius: 25px;
+        }
+    }
+    #circle2 {
+        position: relative;
+        width: 200px;
+        top: 480px;
+        left: -59px;
+    }
+}
+#slide4{
+    width: 100%;
+    background-color: $main-color;
+    #judul4{
+        color: #FFFFFF;
+        font-size: 50px;
+        position: relative;
+        top: 50px;
+        font-weight: bold;
+    }
+    .d-flex{
+        position: relative;
+        top: 75px;
+        left: 45px;
+        p{
+            font-size: 21px;
+            font-weight: bold;
+            color: white;
+        }
+        hr{
+            border: 1px solid white;
+            width: 30%;
+        }
+    }
+    .watermark {
+        position: absolute;
+        font-weight: bold;
+        color: #FFF;
+        z-index: 0;
+        opacity: 0.1;
+        font-size: 265px;
+        top: -20%;
+    }
+    #desc4 {
+        color: #FFFFFF;
+        position: relative;
+        top: 36px;
+        font-size: 21px;
+    }
+    #poly {
+        position: relative;
+        width: 178px;
+        top: -75px;
+        right: 30px;
+    }
+    .swiper-slide {
+        width: 400px;
+        height: 400px;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+
+        .card-title{
+            position: relative;
+            top: 180px;
+        }
+        .card{
+            border-radius: 25px;
+            border: 0px;
+        }
+        .card-img{
+            height: 265px;
+            border-radius: 25px;
+        }
+        .card-img-overlay{
+            border-radius: 25px;
+        }
+        .card-title{
+            background-color: $main-color;
+            width: 45%;
+            text-align: center;
+            border-radius: 10px;
+            padding: 5px;
+        }
+    }
+}
+#footer{
+    height: 350px;
+    .social-foot {
+        position: relative;
+        top: 35px;
+        left: 15px;
+        .d-flex{
+            margin-bottom: -5px;
+            img{
+                margin-right: 10px;
+            }
+            p{
+                font-size: 19px;
+            }
+        }
+    }
+    .foot-loc{
+        position: relative;
+        top: 35px;
+        left: 140px;
+        img{
+            width: 20px;
+            height: 25px;
+            margin-right: 15px;
+        }
+        p{
+            font-size: 19px;
+        }
+    }
+    #foot-circle{
+        position: relative;
+        width: 100px;
+        top: 70px;
+    }
+    #copyright{
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        top: 60px;
+    }
+}
+    
+
+@media (max-width: 575.98px) {
+    #slide1{
+        hr{
+            display: none;
+        }
+        #judul1{
+            font-size: 25px;
+            top: 80px;
+        }
+        #desc1{
+            top: 76px;
+            font-size: 15px;
+        }
+        #big_bulat{
+            width: 335px;
+            height: 335px;
+            top: -12%;
+            display: block;
+            margin: auto;
+        }
+        #heading_img{
+            width: 330px;
+            position: relative;
+            top: 78px;
+        }
+        #list-sosmed{
+            display: none;
+        }
+    }
+    #slide2{
+        height: 1125px;
+        margin-top: -65px;
+        #judul2{
+            font-size: 25px;
+        }
+        .d-flex{
+            p{
+                display: none;
+            }
+            hr{
+                display: none;
+            }
+        }
+        .watermark{
+            font-size: 100px;
+        }
+        #desc2{
+            font-size: 15px;
+        }
+        .card-img-top{
+            width: 73px;
+        }
+        #petak{
+            display: none;
+        }
+        #divisi{
+            width: 280px;
+            height: 280px;
+            margin-bottom: 25px;
+        }
+    }
+    #slide3{
+        height: 800px;
+        #judul3{
+            font-size: 25px;
+            text-align: center;
+        }
+        .d-flex{
+            p{
+                display: none;
+            }
+            hr{
+                display: none;
+            }
+        }
+        .watermark{
+            font-size: 100px;
+        }
+        #desc3{
+            font-size: 15px;
+            text-align: center;
+        }
+        .card{
+            width: 350px;
+            .card-title{
+                top: 155px;
+            }
+        }
+        #circle2{
+            display: none;
+        }
+    }
+    #slide4{
+        top: -265px;
+        height: 500px;
+        #judul4{
+            font-size: 25px;
+            text-align: center;
+        }
+        #desc4{
+            font-size: 15px;
+            text-align: center;
+        }
+        .d-flex{
+            p{
+                display: none;
+            }
+            hr{
+                display: none;
+            }
+        }
+        .watermark{
+            font-size: 100px;
+        }
+        #poly{
+            display: none;
+        }
+        .card{
+            width: 350px;
+            .card-title{
+                font-size: 14px;
+                top: 150px;
+            }
+            .card-img{
+                height: 240px;
+            }
+        }
+    }
+    #footer{
+        height: 140px;
+        position: relative;
+        top: -266px;
+        #foot-circle{
+            display: none;
+        }
+        .social-foot{
+            .d-flex{
+                img{
+                    width: 15px;
+                    height: 15px;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+        .foot-loc{
+            top: 56px;
+            left: 15px;
+            .d-flex{
+                img{
+                    width: 15px;
+                    height: 19px;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+        #copyright{
+            font-size: 15px;
+            top: 90px;
+        }
+    }
+}

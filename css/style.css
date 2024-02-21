@@ -1,0 +1,560 @@
+body {
+  overflow-x: hidden;
+}
+
+#slide1 {
+  height: 615px;
+}
+
+#slide1 #small_logo {
+  display: block;
+  margin: auto;
+  width: 100px;
+}
+
+#slide1 hr {
+  border-left: 4px black solid;
+  width: 0px;
+  height: 365px;
+  float: left;
+  position: relative;
+  left: 25px;
+}
+
+#slide1 #judul1 {
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  font-weight: bold;
+}
+
+#slide1 #desc1 {
+  position: relative;
+  text-align: center;
+  top: 65px;
+  font-size: 21px;
+}
+
+#slide1 #heading_img {
+  position: relative;
+  width: 425px;
+  display: block;
+  margin: auto;
+}
+
+#slide1 #big_bulat {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  top: -22%;
+  z-index: -999;
+  margin: auto;
+  display: block;
+}
+
+#slide1 #circle2 {
+  width: 100px;
+  top: 230px;
+  position: relative;
+}
+
+#slide1 #list-sosmed {
+  position: relative;
+  top: 385px;
+  left: -22px;
+}
+
+#slide1 #list-sosmed li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#slide1 #list-sosmed .sosmed {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+#slide1 #list-sosmed .sosmed:hover {
+  width: 25px;
+  height: 25px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+#slide2 {
+  margin-top: 10px;
+  height: 625px;
+  background-color: #0B5EBE;
+}
+
+#slide2 #judul2 {
+  color: #FFF;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+  font-weight: bold;
+}
+
+#slide2 .d-flex {
+  position: relative;
+  top: 75px;
+  left: 30px;
+}
+
+#slide2 .d-flex p {
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+}
+
+#slide2 .d-flex hr {
+  border: 1px solid white;
+  width: 30%;
+}
+
+#slide2 .watermark {
+  position: absolute;
+  font-weight: bold;
+  color: #FFF;
+  z-index: 0;
+  opacity: 0.1;
+  font-size: 265px;
+  top: 0;
+}
+
+#slide2 #desc2 {
+  color: #FFF;
+  position: relative;
+  top: 36px;
+  font-size: 21px;
+}
+
+#slide2 #petak {
+  width: 170px;
+  top: -45px;
+  position: relative;
+  left: 55px;
+}
+
+#slide2 .card-deck {
+  margin: auto;
+}
+
+#slide2 #divisi {
+  top: 55px;
+  width: 185px;
+  margin: 0px 20px 0px 20px;
+  -webkit-box-shadow: 2px 2px 10px 5px rgba(12, 5, 100, 0.2);
+          box-shadow: 2px 2px 10px 5px rgba(12, 5, 100, 0.2);
+  height: 340px;
+  border-radius: 25px;
+}
+
+#slide2 li {
+  margin-bottom: 5px;
+}
+
+#slide2 .card-img-top {
+  width: 145px;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+}
+
+#slide2 .card-title {
+  text-align: center;
+}
+
+#slide2 .card-header {
+  height: 60px;
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+#slide3 {
+  width: 100%;
+}
+
+#slide3 #judul3 {
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+  font-weight: bold;
+}
+
+#slide3 .d-flex {
+  position: relative;
+  top: 75px;
+  left: 45px;
+}
+
+#slide3 .d-flex p {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+#slide3 .d-flex hr {
+  border: 1px solid black;
+  width: 30%;
+}
+
+#slide3 #desc3 {
+  position: relative;
+  top: 36px;
+  font-size: 21px;
+}
+
+#slide3 .watermark {
+  position: absolute;
+  font-weight: bold;
+  color: #0B5EBE;
+  z-index: 0;
+  opacity: 0.1;
+  font-size: 265px;
+  top: -20%;
+}
+
+#slide3 .swiper-slide {
+  width: 400px;
+  height: 400px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#slide3 .swiper-slide .card-title {
+  top: 190px;
+  position: relative;
+}
+
+#slide3 .swiper-slide .card {
+  border-radius: 25px;
+}
+
+#slide3 .swiper-slide .card-img {
+  border-radius: 25px;
+}
+
+#slide3 .swiper-slide .card-img-overlay {
+  -webkit-box-shadow: inset 0px -105px 60px -35px #0B5EBE;
+          box-shadow: inset 0px -105px 60px -35px #0B5EBE;
+  border-radius: 25px;
+}
+
+#slide3 #circle2 {
+  position: relative;
+  width: 200px;
+  top: 480px;
+  left: -59px;
+}
+
+#slide4 {
+  width: 100%;
+  background-color: #0B5EBE;
+}
+
+#slide4 #judul4 {
+  color: #FFFFFF;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+  font-weight: bold;
+}
+
+#slide4 .d-flex {
+  position: relative;
+  top: 75px;
+  left: 45px;
+}
+
+#slide4 .d-flex p {
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+}
+
+#slide4 .d-flex hr {
+  border: 1px solid white;
+  width: 30%;
+}
+
+#slide4 .watermark {
+  position: absolute;
+  font-weight: bold;
+  color: #FFF;
+  z-index: 0;
+  opacity: 0.1;
+  font-size: 265px;
+  top: -20%;
+}
+
+#slide4 #desc4 {
+  color: #FFFFFF;
+  position: relative;
+  top: 36px;
+  font-size: 21px;
+}
+
+#slide4 #poly {
+  position: relative;
+  width: 178px;
+  top: -75px;
+  right: 30px;
+}
+
+#slide4 .swiper-slide {
+  width: 400px;
+  height: 400px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#slide4 .swiper-slide .card-title {
+  position: relative;
+  top: 180px;
+}
+
+#slide4 .swiper-slide .card {
+  border-radius: 25px;
+  border: 0px;
+}
+
+#slide4 .swiper-slide .card-img {
+  height: 265px;
+  border-radius: 25px;
+}
+
+#slide4 .swiper-slide .card-img-overlay {
+  border-radius: 25px;
+}
+
+#slide4 .swiper-slide .card-title {
+  background-color: #0B5EBE;
+  width: 45%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#footer {
+  height: 350px;
+}
+
+#footer .social-foot {
+  position: relative;
+  top: 35px;
+  left: 15px;
+}
+
+#footer .social-foot .d-flex {
+  margin-bottom: -5px;
+}
+
+#footer .social-foot .d-flex img {
+  margin-right: 10px;
+}
+
+#footer .social-foot .d-flex p {
+  font-size: 19px;
+}
+
+#footer .foot-loc {
+  position: relative;
+  top: 35px;
+  left: 140px;
+}
+
+#footer .foot-loc img {
+  width: 20px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+#footer .foot-loc p {
+  font-size: 19px;
+}
+
+#footer #foot-circle {
+  position: relative;
+  width: 100px;
+  top: 70px;
+}
+
+#footer #copyright {
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+@media (max-width: 575.98px) {
+  #slide1 hr {
+    display: none;
+  }
+  #slide1 #judul1 {
+    font-size: 25px;
+    top: 80px;
+  }
+  #slide1 #desc1 {
+    top: 76px;
+    font-size: 15px;
+  }
+  #slide1 #big_bulat {
+    width: 335px;
+    height: 335px;
+    top: -12%;
+    display: block;
+    margin: auto;
+  }
+  #slide1 #heading_img {
+    width: 330px;
+    position: relative;
+    top: 78px;
+  }
+  #slide1 #list-sosmed {
+    display: none;
+  }
+  #slide2 {
+    height: 1125px;
+    margin-top: -65px;
+  }
+  #slide2 #judul2 {
+    font-size: 25px;
+  }
+  #slide2 .d-flex p {
+    display: none;
+  }
+  #slide2 .d-flex hr {
+    display: none;
+  }
+  #slide2 .watermark {
+    font-size: 100px;
+  }
+  #slide2 #desc2 {
+    font-size: 15px;
+  }
+  #slide2 .card-img-top {
+    width: 73px;
+  }
+  #slide2 #petak {
+    display: none;
+  }
+  #slide2 #divisi {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 25px;
+  }
+  #slide3 {
+    height: 800px;
+  }
+  #slide3 #judul3 {
+    font-size: 25px;
+    text-align: center;
+  }
+  #slide3 .d-flex p {
+    display: none;
+  }
+  #slide3 .d-flex hr {
+    display: none;
+  }
+  #slide3 .watermark {
+    font-size: 100px;
+  }
+  #slide3 #desc3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  #slide3 .card {
+    width: 350px;
+  }
+  #slide3 .card .card-title {
+    top: 155px;
+  }
+  #slide3 #circle2 {
+    display: none;
+  }
+  #slide4 {
+    top: -265px;
+    height: 500px;
+  }
+  #slide4 #judul4 {
+    font-size: 25px;
+    text-align: center;
+  }
+  #slide4 #desc4 {
+    font-size: 15px;
+    text-align: center;
+  }
+  #slide4 .d-flex p {
+    display: none;
+  }
+  #slide4 .d-flex hr {
+    display: none;
+  }
+  #slide4 .watermark {
+    font-size: 100px;
+  }
+  #slide4 #poly {
+    display: none;
+  }
+  #slide4 .card {
+    width: 350px;
+  }
+  #slide4 .card .card-title {
+    font-size: 14px;
+    top: 150px;
+  }
+  #slide4 .card .card-img {
+    height: 240px;
+  }
+  #footer {
+    height: 140px;
+    position: relative;
+    top: -266px;
+  }
+  #footer #foot-circle {
+    display: none;
+  }
+  #footer .social-foot .d-flex img {
+    width: 15px;
+    height: 15px;
+  }
+  #footer .social-foot .d-flex p {
+    font-size: 15px;
+  }
+  #footer .foot-loc {
+    top: 56px;
+    left: 15px;
+  }
+  #footer .foot-loc .d-flex img {
+    width: 15px;
+    height: 19px;
+  }
+  #footer .foot-loc .d-flex p {
+    font-size: 15px;
+  }
+  #footer #copyright {
+    font-size: 15px;
+    top: 90px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
